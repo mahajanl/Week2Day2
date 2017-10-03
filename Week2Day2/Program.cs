@@ -33,21 +33,22 @@ namespace Week2Day2
             //for(int i = 0; i <= 10; i++)
             //{ Console.WriteLine(i); }
 
+            //             as long as i is less than or equal to 10
             for(int i = 1; i <= 10; i++)
             { Console.WriteLine(i);
             }
 
-
             for (int counter = 50; counter <= 100; counter++)
-            { Console.WriteLine(counter);
+            {
+                Console.Write(counter + " ");
             }
 
-            string greeting = "My name is Ultron";
-            string[] words = greeting.Split();
+            //string greeting = "My name is Ultron";
+            //string[] words = greeting.Split();
 
-            for (int i = 0; i < words.Length; i++) 
-            { Console.WriteLine(words[i]);
-            }
+            //for (int i = 0; i < words.Length; i++) 
+            //{ Console.WriteLine(words[i]);
+            //}
         }
     }
 }
