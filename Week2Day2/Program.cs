@@ -58,21 +58,24 @@ namespace Week2Day2
             //}
 
             //string[] days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-            string day = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday";
-            string[] recall = day.Split();
-            for (int i = 0; i < recall.Length; i++)
-            { Console.WriteLine(recall[i]);
+            //for (int i = 0; i < days.Length; i++)
+            //string day = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday";
+            //string[] recall = day.Split();
+            //for (int i = 0; i < recall.Length; i++)
+            //{ Console.WriteLine(recall[i]);
+            //}
+
+            //string storyWords = "Once upon a time";
+            //string [] wordsStory = storyWords.Split();
+            //Array.Reverse(wordsStory);
+            //for (int i=0; i < wordsStory.Length; i++)
+            //{ Console.WriteLine(wordsStory[i]);
+            //}
+
+            string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec" };
+            foreach (string month in months)
+            { Console.WriteLine(month);
             }
-
-            string storyWords = "Once upon a time";
-            string [] wordsStory = storyWords.Split();
-            Array.Reverse(wordsStory);
-            for (int i=0; i < wordsStory.Length; i++)
-            { Console.WriteLine(wordsStory[i]);
-            }
-
-
-
 
         }
     }
