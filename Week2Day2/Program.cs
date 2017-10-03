@@ -82,14 +82,19 @@ namespace Week2Day2
             //{ Console.WriteLine(artist);
             //}
 
-            string[] foodsILike = { "Avocado", "Goat cheese", "Butternut squash", "Steak", "Roasted salmon" };
+            string[] foodsILike = { "Avocado", "Goat cheese", "Butternut squash", "A medium-rare steak", "Roasted salmon" };
             foreach(string food in foodsILike)
             { Console.WriteLine(food);
             }
 
             int[] numsILike = { 4, 8, 16, 64, 7, 11, 13, 17, 31 };
-            foreach(int number in numsILike)
-            { Console.WriteLine("Your lucky number is " + number + "."); }
+            Array.Sort(numsILike);
+            foreach (int number in numsILike)
+            {
+                Console.WriteLine("Your lucky number is " + number + ".");
+            }
+            
+
 
 
         }
