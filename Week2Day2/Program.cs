@@ -72,10 +72,25 @@ namespace Week2Day2
             //{ Console.WriteLine(wordsStory[i]);
             //}
 
-            string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec" };
-            foreach (string month in months)
-            { Console.WriteLine(month);
+            //string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec" };
+            //foreach (string month in months)
+            //{ Console.WriteLine(month);
+            //}
+
+            //string[] artists = { "Matchbox 20", "Black Keys", "Florence and the Machine", "Lin Manuel Miranda", "Clint Black" };
+            //foreach(string artist in artists)
+            //{ Console.WriteLine(artist);
+            //}
+
+            string[] foodsILike = { "Avocado", "Goat cheese", "Butternut squash", "Steak", "Roasted salmon" };
+            foreach(string food in foodsILike)
+            { Console.WriteLine(food);
             }
+
+            int[] numsILike = { 4, 8, 16, 64, 7, 11, 13, 17, 31 };
+            foreach(int number in numsILike)
+            { Console.WriteLine("Your lucky number is " + number + "."); }
+
 
         }
     }
