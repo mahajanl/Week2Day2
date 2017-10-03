@@ -14,7 +14,7 @@ namespace Week2Day2
             Console.WriteLine(Array.IndexOf(someNames, "Henry"));
 
             int[] luckyNums = { 2, 4, 5, 4, 7, 9, 7, 2, 5 };
-            Console.WriteLine(Array.LastIndexOf(luckyNums, "2"));
+            Console.WriteLine(Array.LastIndexOf(luckyNums, 2));
 
             char[] alpha = { 's', 'd', 'j', 'l', 'x', 'p' };
             Console.WriteLine(alpha[0]);
@@ -29,6 +29,8 @@ namespace Week2Day2
             int[] faveNums = { 13, 7, 14, 21, 17, 5, 15, 3, 23, 12 };
             Array.Sort(faveNums);
             Console.WriteLine("The lowest number of the array is " + faveNums[0] + " and the largest is " + (faveNums[faveNums.Length - 1]) + ".");
+
+
         }
     }
 }
