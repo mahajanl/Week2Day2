@@ -112,22 +112,34 @@ namespace Week2Day2
             //        playAgain = Console.ReadLine();
             //}
 
-            Console.WriteLine("Would you like to check in for your appointment? Type YES or NO");
-            string ANSWER = Console.ReadLine().ToLower().Trim();
-            while (ANSWER != "yes")
-            {Console.WriteLine("PATIENT CHECK IN SYSTEM");
-             Console.WriteLine("What is your full name (FIRST and LAST)");
-             string userName = Console.ReadLine();
+            //Console.WriteLine("Would you like to check in for your appointment? Type YES or NO");
+            //string ANSWER = Console.ReadLine().ToLower().Trim();
+            //while (ANSWER != "yes")
+            //{Console.WriteLine("PATIENT CHECK IN SYSTEM");
+            // Console.WriteLine("What is your full name (FIRST and LAST)");
+            // string userName = Console.ReadLine();
 
-                Console.WriteLine("What is your 6 digit patient ID number");
-                string ID = Console.ReadLine();
+            //    Console.WriteLine("What is your 6 digit patient ID number");
+            //    string ID = Console.ReadLine();
 
-                Console.WriteLine("What is your appointment time?");
-                string time = Console.ReadLine();
+            //    Console.WriteLine("What is your appointment time?");
+            //    string time = Console.ReadLine();
 
-                Console.WriteLine("Would you like the check your patient in for their appointment?");
-                string answer = Console.ReadLine();
-                }
+            //    Console.WriteLine("Would you like the check your patient in for their appointment?");
+            //    string answer = Console.ReadLine();
+            //    }
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Great Game!");
+            //    Console.WriteLine("Do you want to play again?");
+            //    playAgain = Console.ReadLine().ToLower().Trim();
+                
+            //}
+            //while (playAgain == "yes");
+
+            //Console.WriteLine("Thanks for playing the game.");
 
 
         }
