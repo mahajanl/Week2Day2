@@ -135,12 +135,32 @@ namespace Week2Day2
             //    Console.WriteLine("Great Game!");
             //    Console.WriteLine("Do you want to play again?");
             //    playAgain = Console.ReadLine().ToLower().Trim();
-                
+
             //}
             //while (playAgain == "yes");
 
             //Console.WriteLine("Thanks for playing the game.");
 
+            //string answer;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to add to your GPA calculator?");
+            //    string classToAdd = Console.ReadLine();
+            //    Console.WriteLine("What letter grade did you receive in the class? Just the base letter please, no special characters like + or -");
+            //    char grade = char.Parse(Console.ReadLine());
+            //    Console.WriteLine("Do you have another class you'd like to add to your GPA?");
+            //    answer = Console.ReadLine().ToLower().Trim();
+            //}
+            //while (answer == "yes");
+
+            //for(int i = 1; i <= 20; i++)
+            //{
+            //    if (i % 13 == 0)
+            //        { break;
+            //        }
+            //            Console.WriteLine(i);
+            //}
+            //Console.WriteLine("The loop has finished.");
 
         }
     }
