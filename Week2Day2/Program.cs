@@ -162,6 +162,15 @@ namespace Week2Day2
             //}
             //Console.WriteLine("The loop has finished.");
 
+            //NESTED LOOPS
+
+            for (int i =1; i <= 4; i++)
+            {
+                for (int j = 1; j <= 8; j++)
+                { Console.Write(j); //columns
+                }
+                Console.WriteLine(); // next row
+            }
         }
     }
 }
