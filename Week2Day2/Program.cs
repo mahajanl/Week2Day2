@@ -82,19 +82,49 @@ namespace Week2Day2
             //{ Console.WriteLine(artist);
             //}
 
-            string[] foodsILike = { "Avocado", "Goat cheese", "Butternut squash", "A medium-rare steak", "Roasted salmon" };
-            foreach(string food in foodsILike)
-            { Console.WriteLine(food);
-            }
+            //string[] foodsILike = { "Avocado", "Goat cheese", "Butternut squash", "A medium-rare steak", "Roasted salmon" };
+            //foreach(string food in foodsILike)
+            //{ Console.WriteLine(food);
+            //}
 
-            int[] numsILike = { 4, 8, 16, 64, 7, 11, 13, 17, 31 };
-            Array.Sort(numsILike);
-            foreach (int number in numsILike)
-            {
-                Console.WriteLine("Your lucky number is " + number + ".");
-            }
-            
+            //int[] numsILike = { 4, 8, 16, 64, 7, 11, 13, 17, 31 };
+            //Array.Sort(numsILike);
+            //foreach (int number in numsILike)
+            //{
+            //    Console.WriteLine("Your lucky number is " + number + ".");
+            //}
 
+            //for(int i = 10; i >= 0; i--)
+            //{ Console.WriteLine(i);
+            //}
+
+            //string[] colors = { "red", "white", "blue", "green" };
+            //foreach (string color in colors) 
+            //{ Console.WriteLine(color); }
+
+            //WHILE LOOPS
+
+            //Console.WriteLine("do you want a rematch? Type YES or NO");
+            //string playAgain = Console.ReadLine();
+            //while (playAgain == "YES") ;
+            //{ Console.WriteLine("It's a rematch!");
+            //  Console.WriteLine("do you want to play again? YES/NO");
+            //        playAgain = Console.ReadLine();
+            //}
+
+            Console.WriteLine("Would you like to check in for your appointment? Type YES or NO");
+            string ANSWER = Console.ReadLine().ToLower().Trim();
+            while (ANSWER != "yes")
+            {Console.WriteLine("PATIENT CHECK IN SYSTEM");
+             Console.WriteLine("What is your full name (FIRST and LAST)");
+                Console.ReadLine();
+                Console.WriteLine("What is your 6 digit patient ID number");
+                Console.ReadLine();
+                Console.WriteLine("What is your appointment time?");
+                Console.ReadLine();
+                Console.WriteLine("Would you like the check your patient in for their appointment?");
+                Console.ReadLine();
+                }
 
 
         }
