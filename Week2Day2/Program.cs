@@ -117,13 +117,16 @@ namespace Week2Day2
             while (ANSWER != "yes")
             {Console.WriteLine("PATIENT CHECK IN SYSTEM");
              Console.WriteLine("What is your full name (FIRST and LAST)");
-                Console.ReadLine();
+             string userName = Console.ReadLine();
+
                 Console.WriteLine("What is your 6 digit patient ID number");
-                Console.ReadLine();
+                string ID = Console.ReadLine();
+
                 Console.WriteLine("What is your appointment time?");
-                Console.ReadLine();
+                string time = Console.ReadLine();
+
                 Console.WriteLine("Would you like the check your patient in for their appointment?");
-                Console.ReadLine();
+                string answer = Console.ReadLine();
                 }
 
 
